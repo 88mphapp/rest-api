@@ -1,0 +1,52 @@
+{
+  "cDAI": {
+    "name": "cDAI",
+    "address": "0x35966201A7724b952455B73A36C8846D8745218e",
+    "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "stablecoinSymbol": "DAI",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/dai.svg",
+    "moneyMarket": "0xB45badB785142e6f459a8f5F724B6688cef311FD"
+  },
+  "cUSDC": {
+    "name": "cUSDC",
+    "address": "0x374226dbAa3e44bF3923AfB63f5Fd83928B7e148",
+    "stablecoin": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/usdc.svg",
+    "moneyMarket": "0xaDEDB64E36ba329FD116269A62276B1Ba5d039Dc"
+  },
+  "cUNI": {
+    "name": "cUNI",
+    "address": "0x19E10132841616CE4790920d5f94B8571F9b9341",
+    "stablecoin": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "stablecoinSymbol": "UNI",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/uni.svg",
+    "moneyMarket": "0xb5d7BE07Cc7F03c8340A3F492357137438778aFF"
+  },
+  "yUSD": {
+    "name": "yUSD",
+    "address": "0xe615e59353f70cA2424Aa0F24F49C639B8E924D3",
+    "stablecoin": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
+    "stablecoinSymbol": "yCRV",
+    "stablecoinDecimals": 18,
+    "protocol": "yEarn",
+    "iconPath": "assets/img/token-icons/yusd.webp",
+    "moneyMarket": "0x37315Cdf1d097dfAb8267c0c1Aef6fECaC09d845"
+  },
+  "ycrvSBTC": {
+    "name": "ycrvSBTC",
+    "address": "0x681Aaa7CF3F7E1f110842f0149bA8A4AF53Ef2Fd",
+    "stablecoin": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+    "stablecoinSymbol": "crvRenWSBTC",
+    "stablecoinDecimals": 18,
+    "protocol": "yEarn",
+    "iconPath": "assets/img/token-icons/btc.svg",
+    "moneyMarket": "0x10f1a7F480c75E6e434d35b025dF4e6C1FC26Db7"
+  }
+}
