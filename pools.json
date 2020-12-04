@@ -1,7 +1,7 @@
 {
   "cDAI": {
     "name": "cDAI",
-    "address": "0x35966201A7724b952455B73A36C8846D8745218e",
+    "address": "0x35966201a7724b952455b73a36c8846d8745218e",
     "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
     "stablecoinSymbol": "DAI",
     "stablecoinDecimals": 18,
@@ -11,7 +11,7 @@
   },
   "cUSDC": {
     "name": "cUSDC",
-    "address": "0x374226dbAa3e44bF3923AfB63f5Fd83928B7e148",
+    "address": "0x374226dbaa3e44bf3923afb63f5fd83928b7e148",
     "stablecoin": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "stablecoinSymbol": "USDC",
     "stablecoinDecimals": 6,
@@ -21,7 +21,7 @@
   },
   "cUNI": {
     "name": "cUNI",
-    "address": "0x19E10132841616CE4790920d5f94B8571F9b9341",
+    "address": "0x19e10132841616ce4790920d5f94b8571f9b9341",
     "stablecoin": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
     "stablecoinSymbol": "UNI",
     "stablecoinDecimals": 18,
@@ -31,7 +31,7 @@
   },
   "yUSD": {
     "name": "yUSD",
-    "address": "0xe615e59353f70cA2424Aa0F24F49C639B8E924D3",
+    "address": "0xe615e59353f70ca2424aa0f24f49c639b8e924d3",
     "stablecoin": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
     "stablecoinSymbol": "yCRV",
     "stablecoinDecimals": 18,
@@ -41,12 +41,23 @@
   },
   "ycrvSBTC": {
     "name": "ycrvSBTC",
-    "address": "0x681Aaa7CF3F7E1f110842f0149bA8A4AF53Ef2Fd",
+    "address": "0x681aaa7cf3f7e1f110842f0149ba8a4af53ef2fd",
     "stablecoin": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
     "stablecoinSymbol": "crvRenWSBTC",
     "stablecoinDecimals": 18,
     "protocol": "yEarn",
     "iconPath": "assets/img/token-icons/btc.svg",
     "moneyMarket": "0x10f1a7F480c75E6e434d35b025dF4e6C1FC26Db7"
+  },
+  "harvestYCRV": {
+    "name": "harvestYCRV",
+    "address": "0x23fa6b36e870ca5753853538d17c3ca7f5269e84",
+    "stablecoin": "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
+    "stablecoinSymbol": "yCRV",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/ycrv.png",
+    "moneyMarket": "0xD4AA5cC7Eb7f471F44bb744F518C5F3d937cc403",
+    "stakingPool": "0x6D1b6Ea108AA03c6993d8010690264BA96D349A8"
   }
 }
