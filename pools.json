@@ -59,5 +59,37 @@
     "iconPath": "assets/img/token-icons/ycrv.png",
     "moneyMarket": "0xD4AA5cC7Eb7f471F44bb744F518C5F3d937cc403",
     "stakingPool": "0x6D1b6Ea108AA03c6993d8010690264BA96D349A8"
+  },
+  "aUSDC": {
+    "name": "aUSDC",
+    "address": "0xe8c52367b81113ed32bb276184e521c2fbe9393a",
+    "stablecoin": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/usdc.svg",
+    "moneyMarket": "0xB558fD7F1927CeB334bf661acc5C6a11C103fc91"
+  },
+  "harvestCRVHUSD": {
+    "name": "harvestCRVHUSD",
+    "address": "0xb1abaac351e06d40441cf2cd97f6f0098e6473f2",
+    "stablecoin": "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858",
+    "stablecoinSymbol": "CRV:HUSD",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/curve-husd.png",
+    "moneyMarket": "0x095cCFeDF134D20a033eeA5ab124C03777e8B0B0",
+    "stakingPool": "0x72C50e6FD8cC5506E166c273b6E814342Aa0a3c1"
+  },
+  "harvest3CRV": {
+    "name": "harvest3CRV",
+    "address": "0x2f3efd1a90a2336ab8fa1b9060380dc37361ca55",
+    "stablecoin": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "stablecoinSymbol": "3CRV",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/3crv.png",
+    "moneyMarket": "0x68c16B704567F23a59615Fd7dc38ebE9E6768a1F",
+    "stakingPool": "0x27F12d1a08454402175b9F0b53769783578Be7d9"
   }
 }

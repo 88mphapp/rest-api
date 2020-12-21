@@ -34,6 +34,10 @@ const httpsGet = async (apiStr, cacheMaxAge: number = 60) => {
 }
 
 const getTokenPriceUSD = async (address: string): Promise<number> => {
+  if (address.toLowerCase() === '0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858'.toLowerCase()) {
+    // crvHUSD
+    return 1;
+  }
   const apiStr = `https://api.coingecko.com/api/v3/coins/ethereum/contract/${address}/market_chart/?vs_currency=usd&days=0`;
   const rawResult = await httpsGet(apiStr, 300);
   return rawResult.prices[0][1];
@@ -78,6 +82,8 @@ app.get('/pools', (req, res) => {
     if (dpools) {
       const mphPriceUSD = await getMPHPriceUSD();
       await Promise.all(dpools.map(async pool => {
+        const poolInfo = getPoolInfoFromAddress(pool.address);
+
         // get MPH APY
         const stablecoinPrice = await getTokenPriceUSD(pool.stablecoin);
         const mphDepositorRewardMintMultiplier = new BigNumber(pool.mphDepositorRewardMintMultiplier);
@@ -85,15 +91,18 @@ app.get('/pools', (req, res) => {
         const tempMPHAPY = mphDepositorRewardMintMultiplier.times(mphPriceUSD).times(YEAR_IN_SEC).div(stablecoinPrice).times(100);
         const mphAPY = tempMPHAPY.times(new BigNumber(1).minus(mphDepositorRewardTakeBackMultiplier));
 
-        const poolInfo = getPoolInfoFromAddress(pool.address);
+        const totalValueLockedInToken = new BigNumber(pool.totalActiveDeposit);
+        const totalValueLockedInUSD = totalValueLockedInToken.times(stablecoinPrice);
 
         const poolObj = {
           address: pool.address,
-          stablecoin: pool.stablecoin,
-          stablecoinSymbol: poolInfo.stablecoinSymbol,
+          token: pool.stablecoin,
+          tokenSymbol: poolInfo.stablecoinSymbol,
           protocol: poolInfo.protocol,
           oneYearInterestRate: new BigNumber(pool.oneYearInterestRate).times(100).toString(),
-          mphAPY: mphAPY.toString()
+          mphAPY: mphAPY.toString(),
+          totalValueLockedInToken: totalValueLockedInToken.toString(),
+          totalValueLockedInUSD: totalValueLockedInUSD.toString()
         };
         response.push(poolObj);
       }));
