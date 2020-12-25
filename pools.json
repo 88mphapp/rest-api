@@ -91,5 +91,16 @@
     "iconPath": "assets/img/token-icons/3crv.png",
     "moneyMarket": "0x68c16B704567F23a59615Fd7dc38ebE9E6768a1F",
     "stakingPool": "0x27F12d1a08454402175b9F0b53769783578Be7d9"
+  },
+  "harvestCRVHBTC": {
+    "name": "harvestCRVHBTC",
+    "address": "0x3f5611f7762cc39fc11e10c864ae38526f650e9d",
+    "stablecoin": "0xb19059ebb43466C323583928285a49f558E572Fd",
+    "stablecoinSymbol": "CRV:HBTC",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/curve-hbtc.png",
+    "moneyMarket": "0xF34c3AEA5261864B40b8a5aFd3bE8d9AABdD96f9",
+    "stakingPool": "0x01f9CAaD0f9255b0C0Aa2fBD1c1aA06ad8Af7254"
   }
 }
