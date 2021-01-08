@@ -102,5 +102,15 @@
     "iconPath": "assets/img/token-icons/curve-hbtc.png",
     "moneyMarket": "0xF34c3AEA5261864B40b8a5aFd3bE8d9AABdD96f9",
     "stakingPool": "0x01f9CAaD0f9255b0C0Aa2fBD1c1aA06ad8Af7254"
+  },
+  "aSUSD": {
+    "name": "aSUSD",
+    "address": "0x6712baab01fa2dc7be6635746ec2da6f8bd73e71",
+    "stablecoin": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "stablecoinSymbol": "sUSD",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/susd.svg",
+    "moneyMarket": "0x473cA701B5279C3F0d54C059d8c29B8ad470B44D"
   }
 }
