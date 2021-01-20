@@ -37,7 +37,14 @@
     "stablecoinDecimals": 18,
     "protocol": "yEarn",
     "iconPath": "assets/img/token-icons/yusd.webp",
-    "moneyMarket": "0x37315Cdf1d097dfAb8267c0c1Aef6fECaC09d845"
+    "moneyMarket": "0x37315Cdf1d097dfAb8267c0c1Aef6fECaC09d845",
+    "curveSwapAddress": "0xbBC81d23Ea2c3ec7e56D39296F0cbB648873a5d3",
+    "zapDepositTokens": [
+      "DAI",
+      "USDC",
+      "USDT",
+      "TUSD"
+    ]
   },
   "ycrvSBTC": {
     "name": "ycrvSBTC",
@@ -47,7 +54,13 @@
     "stablecoinDecimals": 18,
     "protocol": "yEarn",
     "iconPath": "assets/img/token-icons/btc.svg",
-    "moneyMarket": "0x10f1a7F480c75E6e434d35b025dF4e6C1FC26Db7"
+    "moneyMarket": "0x10f1a7F480c75E6e434d35b025dF4e6C1FC26Db7",
+    "curveSwapAddress": "0x7fC77b5c7614E1533320Ea6DDc2Eb61fa00A9714",
+    "zapDepositTokens": [
+      "renBTC",
+      "WBTC",
+      "sBTC"
+    ]
   },
   "harvestYCRV": {
     "name": "harvestYCRV",
@@ -58,7 +71,14 @@
     "protocol": "Harvest",
     "iconPath": "assets/img/token-icons/ycrv.png",
     "moneyMarket": "0xD4AA5cC7Eb7f471F44bb744F518C5F3d937cc403",
-    "stakingPool": "0x6D1b6Ea108AA03c6993d8010690264BA96D349A8"
+    "stakingPool": "0x6D1b6Ea108AA03c6993d8010690264BA96D349A8",
+    "curveSwapAddress": "0xbBC81d23Ea2c3ec7e56D39296F0cbB648873a5d3",
+    "zapDepositTokens": [
+      "DAI",
+      "USDC",
+      "USDT",
+      "TUSD"
+    ]
   },
   "aUSDC": {
     "name": "aUSDC",
@@ -79,7 +99,14 @@
     "protocol": "Harvest",
     "iconPath": "assets/img/token-icons/curve-husd.png",
     "moneyMarket": "0x095cCFeDF134D20a033eeA5ab124C03777e8B0B0",
-    "stakingPool": "0x72C50e6FD8cC5506E166c273b6E814342Aa0a3c1"
+    "stakingPool": "0x72C50e6FD8cC5506E166c273b6E814342Aa0a3c1",
+    "curveSwapAddress": "0x3eF6A01A0f81D6046290f3e2A8c5b843e738E604",
+    "zapDepositTokens": [
+      "HUSD",
+      "DAI",
+      "USDC",
+      "USDT"
+    ]
   },
   "harvest3CRV": {
     "name": "harvest3CRV",
@@ -90,7 +117,13 @@
     "protocol": "Harvest",
     "iconPath": "assets/img/token-icons/3crv.png",
     "moneyMarket": "0x68c16B704567F23a59615Fd7dc38ebE9E6768a1F",
-    "stakingPool": "0x27F12d1a08454402175b9F0b53769783578Be7d9"
+    "stakingPool": "0x27F12d1a08454402175b9F0b53769783578Be7d9",
+    "curveSwapAddress": "0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7",
+    "zapDepositTokens": [
+      "DAI",
+      "USDC",
+      "USDT"
+    ]
   },
   "harvestCRVHBTC": {
     "name": "harvestCRVHBTC",
@@ -101,7 +134,12 @@
     "protocol": "Harvest",
     "iconPath": "assets/img/token-icons/curve-hbtc.png",
     "moneyMarket": "0xF34c3AEA5261864B40b8a5aFd3bE8d9AABdD96f9",
-    "stakingPool": "0x01f9CAaD0f9255b0C0Aa2fBD1c1aA06ad8Af7254"
+    "stakingPool": "0x01f9CAaD0f9255b0C0Aa2fBD1c1aA06ad8Af7254",
+    "curveSwapAddress": "0x4CA9b3063Ec5866A4B82E437059D2C43d1be596F",
+    "zapDepositTokens": [
+      "HBTC",
+      "WBTC"
+    ]
   },
   "aSUSD": {
     "name": "aSUSD",
@@ -112,5 +150,33 @@
     "protocol": "Aave",
     "iconPath": "assets/img/token-icons/susd.svg",
     "moneyMarket": "0x473cA701B5279C3F0d54C059d8c29B8ad470B44D"
+  },
+  "aDAI": {
+    "name": "aDAI",
+    "address": "0xdc86ac6140026267e0873b27c8629efe748e7146",
+    "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "stablecoinSymbol": "DAI",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/dai.svg",
+    "moneyMarket": "0x90757D5e68A725Fc5f7b13ecdD72cDdd5B8Fa979"
+  },
+  "harvestCRVOBTC": {
+    "name": "harvestCRVOBTC",
+    "address": "0xd4837145c7e13d580904e8431cfd481f9794fc41",
+    "stablecoin": "0x2fE94ea3d5d4a175184081439753DE15AeF9d614",
+    "stablecoinSymbol": "CRV:oBTC",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/curve-obtc.png",
+    "moneyMarket": "0xa3b7A9368408dA40136cD219A91f7f571eE68a36",
+    "stakingPool": "0x91B5cD52fDE8dbAC37C95ECafEF0a70bA4c182fC",
+    "curveSwapAddress": "0xd81dA8D904b52208541Bade1bD6595D8a251F8dd",
+    "zapDepositTokens": [
+      "oBTC",
+      "WBTC",
+      "renBTC",
+      "sBTC"
+    ]
   }
 }
