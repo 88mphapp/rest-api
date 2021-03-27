@@ -7,7 +7,8 @@
     "stablecoinDecimals": 18,
     "protocol": "Compound",
     "iconPath": "assets/img/token-icons/dai.svg",
-    "moneyMarket": "0xB45badB785142e6f459a8f5F724B6688cef311FD"
+    "moneyMarket": "0xB45badB785142e6f459a8f5F724B6688cef311FD",
+    "vestPeriod": "270 days"
   },
   "cUSDC": {
     "name": "cUSDC",
@@ -17,7 +18,8 @@
     "stablecoinDecimals": 6,
     "protocol": "Compound",
     "iconPath": "assets/img/token-icons/usdc.svg",
-    "moneyMarket": "0xaDEDB64E36ba329FD116269A62276B1Ba5d039Dc"
+    "moneyMarket": "0xaDEDB64E36ba329FD116269A62276B1Ba5d039Dc",
+    "vestPeriod": "270 days"
   },
   "cUNI": {
     "name": "cUNI",
@@ -27,7 +29,8 @@
     "stablecoinDecimals": 18,
     "protocol": "Compound",
     "iconPath": "assets/img/token-icons/uni.svg",
-    "moneyMarket": "0xb5d7BE07Cc7F03c8340A3F492357137438778aFF"
+    "moneyMarket": "0xb5d7BE07Cc7F03c8340A3F492357137438778aFF",
+    "vestPeriod": "14 days"
   },
   "yUSD": {
     "name": "yUSD",
@@ -44,7 +47,8 @@
       "USDC",
       "USDT",
       "TUSD"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "ycrvSBTC": {
     "name": "ycrvSBTC",
@@ -60,7 +64,8 @@
       "renBTC",
       "WBTC",
       "sBTC"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "harvestYCRV": {
     "name": "harvestYCRV",
@@ -78,7 +83,8 @@
       "USDC",
       "USDT",
       "TUSD"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "aUSDC": {
     "name": "aUSDC",
@@ -88,7 +94,8 @@
     "stablecoinDecimals": 6,
     "protocol": "Aave",
     "iconPath": "assets/img/token-icons/usdc.svg",
-    "moneyMarket": "0xB558fD7F1927CeB334bf661acc5C6a11C103fc91"
+    "moneyMarket": "0xB558fD7F1927CeB334bf661acc5C6a11C103fc91",
+    "vestPeriod": "270 days"
   },
   "harvestCRVHUSD": {
     "name": "harvestCRVHUSD",
@@ -106,7 +113,8 @@
       "DAI",
       "USDC",
       "USDT"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "harvest3CRV": {
     "name": "harvest3CRV",
@@ -123,7 +131,8 @@
       "DAI",
       "USDC",
       "USDT"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "harvestCRVHBTC": {
     "name": "harvestCRVHBTC",
@@ -139,7 +148,8 @@
     "zapDepositTokens": [
       "HBTC",
       "WBTC"
-    ]
+    ],
+    "vestPeriod": "270 days"
   },
   "aSUSD": {
     "name": "aSUSD",
@@ -149,7 +159,8 @@
     "stablecoinDecimals": 18,
     "protocol": "Aave",
     "iconPath": "assets/img/token-icons/susd.svg",
-    "moneyMarket": "0x473cA701B5279C3F0d54C059d8c29B8ad470B44D"
+    "moneyMarket": "0x473cA701B5279C3F0d54C059d8c29B8ad470B44D",
+    "vestPeriod": "270 days"
   },
   "aDAI": {
     "name": "aDAI",
@@ -159,7 +170,8 @@
     "stablecoinDecimals": 18,
     "protocol": "Aave",
     "iconPath": "assets/img/token-icons/dai.svg",
-    "moneyMarket": "0x90757D5e68A725Fc5f7b13ecdD72cDdd5B8Fa979"
+    "moneyMarket": "0x90757D5e68A725Fc5f7b13ecdD72cDdd5B8Fa979",
+    "vestPeriod": "30 days"
   },
   "harvestCRVOBTC": {
     "name": "harvestCRVOBTC",
@@ -177,6 +189,54 @@
       "WBTC",
       "renBTC",
       "sBTC"
-    ]
+    ],
+    "vestPeriod": "270 days"
+  },
+  "yaLINK": {
+    "name": "yaLINK",
+    "address": "0x904F81EFF3c35877865810CCA9a63f2D9cB7D4DD",
+    "stablecoin": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
+    "stablecoinSymbol": "aLINK v1",
+    "stablecoinDecimals": 18,
+    "protocol": "yEarn",
+    "iconPath": "assets/img/token-icons/link.svg",
+    "moneyMarket": "0x08cC88c379911BF6d778081a078B48bd7035fB70",
+    "interestFee": 0.2,
+    "depositFee": 0.005,
+    "vestPeriod": "270 days"
+  },
+  "harvestCRVSTETH": {
+    "name": "harvestCRVSTETH",
+    "address": "0x303CB7Ede0c3AD99CE017CDC3aBAcD65164Ff486",
+    "stablecoin": "0x06325440D014e39736583c165C2963BA99fAf14E",
+    "stablecoinSymbol": "CRV:STETH",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/curve-steth.png",
+    "moneyMarket": "0xC03e7F63A6Be1198127B7a6eEb5ecD0FBCfF6381",
+    "stakingPool": "0x2E25800957742C52b4d69b65F9C67aBc5ccbffe6",
+    "curveSwapAddress": "0xDC24316b9AE028F1497c275EB9192a3Ea0f67022",
+    "zapDepositTokens": [
+      "ETH",
+      "stETH"
+    ],
+    "vestPeriod": "270 days"
+  },
+  "harvestCRVRENWBTC": {
+    "name": "harvestCRVRENWBTC",
+    "address": "0x22E6b9A65163CE1225D1F65EF7942a979d093039",
+    "stablecoin": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+    "stablecoinSymbol": "CRV:RENWBTC",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/btc.svg",
+    "moneyMarket": "0xD614307FbE4ecE3960f2BB6Ec7863905515AF037",
+    "stakingPool": "0xA3Cf8D1CEe996253FAD1F8e3d68BDCba7B3A3Db5",
+    "curveSwapAddress": "0x93054188d876f558f4a66B2EF1d97d16eDf0895B",
+    "zapDepositTokens": [
+      "WBTC",
+      "renBTC"
+    ],
+    "vestPeriod": "270 days"
   }
 }
