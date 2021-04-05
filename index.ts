@@ -36,7 +36,7 @@ interface CachedPrice {
 }
 
 let tokenPriceCache = [];
-const cacheUpdateInterval = 60e3;
+const cacheUpdateInterval = 300e3;
 
 const httpsGet = async (apiStr, cacheMaxAge: number = 60) => {
   const request = await fetch(apiStr, { headers: { 'Cache-Control': `max-age=${cacheMaxAge}` } });
