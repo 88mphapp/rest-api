@@ -3,8 +3,6 @@ const express = require("express");
 import BigNumber from 'bignumber.js';
 const fetch = require('node-fetch');
 const http = require('http');
-const https = require('https');
-const fs = require('fs');
 const cors = require('cors');
 
 const app = express();
@@ -14,10 +12,6 @@ app.use(cors());
 const graphqlEndpoint = 'https://api.thegraph.com/subgraphs/name/bacon-labs/eighty-eight-mph';
 const YEAR_IN_SEC = 31556952;
 const MPH_ADDR = '0x8888801aF4d980682e47f1A9036e589479e835C5';
-const CREDENTIALS = {
-  key: fs.readFileSync('/etc/letsencrypt/live/api.88mph.app/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/api.88mph.app/fullchain.pem')
-};
 
 interface PoolInfo {
   name: string;
@@ -152,7 +146,9 @@ app.get('/pools', (req, res) => {
 
 // start the Express server
 const httpServer = http.createServer(app);
-const httpsServer = https.createServer(CREDENTIALS, app);
 
-httpServer.listen(80);
-httpsServer.listen(443);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 80;
+}
+httpServer.listen(port);
