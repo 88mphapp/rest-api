@@ -147,8 +147,5 @@ app.get('/pools', (req, res) => {
 // start the Express server
 const httpServer = http.createServer(app);
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 80;
-}
+const port = process.env.PORT;
 httpServer.listen(port);
