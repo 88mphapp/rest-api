@@ -1,0 +1,73 @@
+{
+  "cDAI": {
+    "name": "cDAI",
+    "address": "0x11b1c87983f881b3686f8b1171628357faa30038",
+    "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "stablecoinSymbol": "DAI",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/dai.svg",
+    "moneyMarket": "0x692eba0d114cCb1E3866780cE60a1Df608b24d81"
+  },
+  "cUNI": {
+    "name": "cUNI",
+    "address": "0x5dda04b2BDBBc3FcFb9B60cd9eBFd1b27f1A4fE3",
+    "stablecoin": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "stablecoinSymbol": "UNI",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/uni.svg",
+    "moneyMarket": "0xd075B01fb24e57e3e7bB4Df712bcD8c0a43e1897"
+  },
+  "cLINK": {
+    "name": "cLINK",
+    "address": "0x572be575d1aa1ca84d8ac4274067f7bcb578a368",
+    "stablecoin": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "stablecoinSymbol": "LINK",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/link.svg",
+    "moneyMarket": "0xA426d1C4250139B9B1C7257715e88dF59D7821df"
+  },
+  "aDAI": {
+    "name": "aDAI",
+    "address": "0x6D97eA6e14D35e10b50df9475e9EFaAd1982065E",
+    "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "stablecoinSymbol": "DAI",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/aDAI.svg",
+    "moneyMarket": "0x011735dc889446b9582b6e7a9b792e2a0d11f56d"
+  },
+  "aUSDC": {
+    "name": "aUSDC",
+    "address": "0x2d3141f4C9872d4F53B587C3fB8b22736FeB54b0",
+    "stablecoin": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/aUSDC.svg",
+    "moneyMarket": "0x9Aa09d36be9BCEeE36B3Dc81C0A5137eCF7Ea13B"
+  },
+  "aUSDT": {
+    "name": "aUSDT",
+    "address": "0xb1b225402b5eC977AF8c721f42F21Db5518785dc",
+    "stablecoin": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "stablecoinSymbol": "USDT",
+    "stablecoinDecimals": 6,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/aUSDT.svg",
+    "moneyMarket": "0x1E98FC27B8e3109D8A426B7A1340C74A4d403fA8"
+  },
+  "harvestCRVRENWBTC": {
+    "name": "harvestCRVRENWBTC",
+    "address": "0x5b1a10aAF807d4297048297c30B2504b42C3395F",
+    "stablecoin": "0x49849C98ae39Fff122806C06791Fa73784FB3675",
+    "stablecoinSymbol": "CRVRENWBTC",
+    "stablecoinDecimals": 18,
+    "protocol": "Harvest",
+    "iconPath": "assets/img/token-icons/btc.svg",
+    "moneyMarket": "0x4942f85bb088F50094f231f43Cd11803846ffC29",
+    "stakingPool": "0xA3Cf8D1CEe996253FAD1F8e3d68BDCba7B3A3Db5"
+  }
+}
