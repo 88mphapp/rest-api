@@ -29,6 +29,76 @@
     "iconPath": "assets/img/token-icons/link.svg",
     "moneyMarket": "0xA426d1C4250139B9B1C7257715e88dF59D7821df"
   },
+  "cBAT": {
+    "name": "cBAT",
+    "address": "0x6BF909CE507e94608F0fCbAb2CFdd499e0150a21",
+    "stablecoin": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "stablecoinSymbol": "BAT",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/bat.svg",
+    "moneyMarket": "0x7fAfdd171907d2eB9A03bdDAFCF3B7deaFE78D13"
+  },
+  "cCOMP": {
+    "name": "cCOMP",
+    "address": "0xc1F147DB2b6a9c9FbF322fAC3D1Fbf8B8aAEec10",
+    "stablecoin": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "stablecoinSymbol": "COMP",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/comp.svg",
+    "moneyMarket": "0x571e4cA449621AE16348C430d14c2Df460Df055C"
+  },
+  "cUSDT": {
+    "name": "cUSDT",
+    "address": "0x7f10134c32A4544e4CDC0fD57F5c820Bff3070E9",
+    "stablecoin": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "stablecoinSymbol": "USDT",
+    "stablecoinDecimals": 6,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/usdt.png",
+    "moneyMarket": "0x8579cA27cCf55804A8982432Df2182E53148fee8"
+  },
+  "cWBTC": {
+    "name": "cWBTC",
+    "address": "0xA0E78812E9cD3E754a83bbd74A3F1579b50436E8",
+    "stablecoin": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "stablecoinSymbol": "WBTC",
+    "stablecoinDecimals": 8,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/wbtc.svg",
+    "moneyMarket": "0x40d77Ee34e81eC77F651e79594efc7f33FC5695C"
+  },
+  "cZRX": {
+    "name": "cZRX",
+    "address": "0x0F834C3601088d1B060c47737A2F5Ce4FFA5AC1D",
+    "stablecoin": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+    "stablecoinSymbol": "ZRX",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/zrx.svg",
+    "moneyMarket": "0x983fD4988f6c6b8044EFC6137eE4aB611846c8b8"
+  },
+  "cTUSD": {
+    "name": "cTUSD",
+    "address": "0x085d70Ca0DADE4683D0f59d5a5b7D3298011b4De",
+    "stablecoin": "0x0000000000085d4780B73119b644AE5ecd22b376",
+    "stablecoinSymbol": "TUSD",
+    "stablecoinDecimals": 18,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/tusd.svg",
+    "moneyMarket": "0xbcd502900E13cB3992Daba98431B083F3Ad56C85"
+  },
+  "cUSDC": {
+    "name": "cUSDC",
+    "address": "0x7DC14d047D6d8bb03539f92B9E2cA1f1648A5717",
+    "stablecoin": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "Compound",
+    "iconPath": "assets/img/token-icons/usdc.svg",
+    "moneyMarket": "0xA62F05e3B72c0Aec2A01Bc9343F92fd4B4a22DbB"
+  },
   "aDAI": {
     "name": "aDAI",
     "address": "0x6D97eA6e14D35e10b50df9475e9EFaAd1982065E",
@@ -59,6 +129,136 @@
     "iconPath": "assets/img/token-icons/aUSDT.svg",
     "moneyMarket": "0x1E98FC27B8e3109D8A426B7A1340C74A4d403fA8"
   },
+  "aBAL": {
+    "name": "aBAL",
+    "address": "0x24867F5665414D93f7b3d195f848917D57D5BE27",
+    "stablecoin": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "stablecoinSymbol": "BAL",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/bal.svg",
+    "moneyMarket": "0x79e554c00a41d4718da04d3adbebe21d9e677cf3"
+  },
+  "aCRV": {
+    "name": "aCRV",
+    "address": "0x8eb1b3AC29E0DcbD7F519c86F1Eb76a3AEa41b76",
+    "stablecoin": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "stablecoinSymbol": "CRV",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/crv.svg",
+    "moneyMarket": "0xcFc17cA3F0c946021afF212eE5219dB56469eB2c"
+  },
+  "aGUSD": {
+    "name": "aGUSD",
+    "address": "0xbFDB51ec0ADc6D5bF2ebBA54248D40f81796E12B",
+    "stablecoin": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "stablecoinSymbol": "GUSD",
+    "stablecoinDecimals": 2,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/gusd.svg",
+    "moneyMarket": "0xA137a6DE1097F7Ab3e3792776246F5E1a93cb02A"
+  },
+  "aLINK": {
+    "name": "aLINK",
+    "address": "0x6e6002a4Bd704a3C8E24A70b0Be670f1C2B4d35c",
+    "stablecoin": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "stablecoinSymbol": "LINK",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/link.svg",
+    "moneyMarket": "0x4424B43D945906C66f6B5891337C5c2cF611c6be"
+  },
+  "aRAI": {
+    "name": "aRAI",
+    "address": "0x2A74f09a8E4899115529ec8808C5FC1DE62c2fe4",
+    "stablecoin": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919",
+    "stablecoinSymbol": "RAI",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/rai.svg",
+    "moneyMarket": "0x9F4009B5A95486e0759A2449558Fe0DbcBd23c87"
+  },
+  "aREN": {
+    "name": "aREN",
+    "address": "0x4D794db79C4a85DC763d08A7c440A92A2D153Ffd",
+    "stablecoin": "0x408e41876cccdc0f92210600ef50372656052a38",
+    "stablecoinSymbol": "REN",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/ren.svg",
+    "moneyMarket": "0xbEf20b63C87031279E850281d21762Ca0b9D66b8"
+  },
+  "aSNX": {
+    "name": "aSNX",
+    "address": "0x60F0f24b0fBf066e877C3A89014c2e4E98C33678",
+    "stablecoin": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "stablecoinSymbol": "SNX",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/snx.svg",
+    "moneyMarket": "0xEeDbE79DE6CD498d051A632F22DD89D472876e8F"
+  },
+  "aTUSD": {
+    "name": "aTUSD",
+    "address": "0x10e8Bd414eee26d82E88D6e308FD81ef37D03155",
+    "stablecoin": "0x0000000000085d4780B73119b644AE5ecd22b376",
+    "stablecoinSymbol": "TUSD",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/tusd.svg",
+    "moneyMarket": "0x5CC2cE1A68Ed9b25BAB67C0ca1D0e7890953A454"
+  },
+  "aUSDP": {
+    "name": "aUSDP",
+    "address": "0xF50eF673ee810e6aCb725F941a53Bf92586a39Ad",
+    "stablecoin": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+    "stablecoinSymbol": "USDP",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/usdp.svg",
+    "moneyMarket": "0x5ae6269e5F7ab0cD18fAf4A33571AF4750c8e911"
+  },
+  "aWBTC": {
+    "name": "aWBTC",
+    "address": "0x0fd585328666923A3a772dd5C37e2Dc065C7B137",
+    "stablecoin": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "stablecoinSymbol": "WBTC",
+    "stablecoinDecimals": 8,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/wbtc.svg",
+    "moneyMarket": "0xf5a08729E7984902424Fb4957885E624fC7f444C"
+  },
+  "aWETH": {
+    "name": "aWETH",
+    "address": "0xaE5ddE7EA5c44b38c0bCcfb985c40006ED744EA6",
+    "stablecoin": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "stablecoinSymbol": "WETH",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/weth.svg",
+    "moneyMarket": "0x2D9028e833645858E292d1d7DEAfDBdCd8555200"
+  },
+  "aYFI": {
+    "name": "aYFI",
+    "address": "0x1821aadB9AC1b7E4D56C728aFDaDc7541a785Cd2",
+    "stablecoin": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "stablecoinSymbol": "YFI",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/yfi.svg",
+    "moneyMarket": "0xa62E73eaA3e96D353714f6e6faCb883E2Dbd43c1"
+  },
+  "aSUSD": {
+    "name": "aSUSD",
+    "address": "0xafdD82D73f5dae907f86aD37F346221081Dc917b",
+    "stablecoin": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "stablecoinSymbol": "SUSD",
+    "stablecoinDecimals": 18,
+    "protocol": "Aave",
+    "iconPath": "assets/img/token-icons/susd.svg",
+    "moneyMarket": "0x2ED6D534aeF5285196c004F11F2fBc8246752783"
+  },
   "harvestCRVRENWBTC": {
     "name": "harvestCRVRENWBTC",
     "address": "0x5b1a10aAF807d4297048297c30B2504b42C3395F",
@@ -69,5 +269,65 @@
     "iconPath": "assets/img/token-icons/btc.svg",
     "moneyMarket": "0x4942f85bb088F50094f231f43Cd11803846ffC29",
     "stakingPool": "0xA3Cf8D1CEe996253FAD1F8e3d68BDCba7B3A3Db5"
+  },
+  "bDAI": {
+    "name": "bDAI",
+    "address": "0x4B4626c1265d22B71ded11920795A3c6127A0559",
+    "stablecoin": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "stablecoinSymbol": "DAI",
+    "stablecoinDecimals": 18,
+    "protocol": "B.Protocol",
+    "iconPath": "assets/img/token-icons/dai.svg",
+    "moneyMarket": "0x85C2AcCaEEcA93e09bc9AEbb60d59A920aae92Fd"
+  },
+  "bUSDC": {
+    "name": "bUSDC",
+    "address": "0x4f7EC502cA0Be8Ef1f984AB1f164022a15ff5561",
+    "stablecoin": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "B.Protocol",
+    "iconPath": "assets/img/token-icons/usdc.svg",
+    "moneyMarket": "0xcAcEc180DACCB02B765Fe42De4bCA15d7D5c5AeC"
+  },
+  "bUSDT": {
+    "name": "bUSDT",
+    "address": "0x062214FbE3F15D217512DEb14572eb01FACE0392",
+    "stablecoin": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "stablecoinSymbol": "USDT",
+    "stablecoinDecimals": 6,
+    "protocol": "B.Protocol",
+    "iconPath": "assets/img/token-icons/usdt.png",
+    "moneyMarket": "0x75EF12f66d55C4698f1a2cAD94b4b7a066585318"
+  },
+  "crFTT": {
+    "name": "crFTT",
+    "address": "0x46603A1cca20e7AE18f1a069125369609d9D4153",
+    "stablecoin": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
+    "stablecoinSymbol": "FTT",
+    "stablecoinDecimals": 18,
+    "protocol": "Cream",
+    "iconPath": "assets/img/token-icons/ftt.svg",
+    "moneyMarket": "0xe84B8B41b90759238E67511DD6B582B4d1387E8D"
+  },
+  "crUSDC": {
+    "name": "crUSDC",
+    "address": "0xF61681b8Cbf87615F30f96F491FA28a2Ff39947a",
+    "stablecoin": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "stablecoinSymbol": "USDC",
+    "stablecoinDecimals": 6,
+    "protocol": "Cream",
+    "iconPath": "assets/img/token-icons/usdc.svg",
+    "moneyMarket": "0x89481DA769dE069d7DD6A54F1aC642E1F921c7ec"
+  },
+  "crUSDT": {
+    "name": "crUSDT",
+    "address": "0x3816579C8Cb62500a45AE29A33040A3DEA4160de",
+    "stablecoin": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "stablecoinSymbol": "USDT",
+    "stablecoinDecimals": 6,
+    "protocol": "Cream",
+    "iconPath": "assets/img/token-icons/usdt.png",
+    "moneyMarket": "0x2A928A3C54622F56E5147f0c9Bf5133e04503c4F"
   }
 }
