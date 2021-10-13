@@ -52,42 +52,43 @@ const getTokenPriceUSD = async (
     address: string,
     platform: string = "ethereum"
 ): Promise<number> => {
-    if (
-        address.toLowerCase() ===
-        "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858".toLowerCase()
-    ) {
-        // crvHUSD
-        return 1;
-    } else if (
-        address.toLowerCase() ===
-        "0xb19059ebb43466C323583928285a49f558E572Fd".toLowerCase()
-    ) {
-        // crvHBTC
-        address = "0x0316EB71485b0Ab14103307bf65a021042c6d380";
-    } else if (
-        address.toLowerCase() ===
-        "0x2fE94ea3d5d4a175184081439753DE15AeF9d614".toLowerCase()
-    ) {
-        // crvOBTC
-        address = "0x8064d9Ae6cDf087b1bcd5BDf3531bD5d8C537a68";
-    } else if (
-        address.toLowerCase() ===
-        "0x06325440D014e39736583c165C2963BA99fAf14E".toLowerCase()
-    ) {
-        // CRV:STETH
+    const usdCoins = [
+        "0x5B5CFE992AdAC0C9D48E05854B2d91C73a003858", // crvHUSD
+        "0x049d68029688eAbF473097a2fC38ef61633A3C7A", // Fantom USDT
+        "0xAd84341756Bf337f5a0164515b1f6F993D194E1f", // FUSD
+        "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E", // Fantom DAI
+        "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75", // Fantom USDC
+    ].map((x) => x.toLowerCase());
+    const btcCoins = [
+        "0xb19059ebb43466C323583928285a49f558E572Fd", // crvHBTC
+        "0x2fE94ea3d5d4a175184081439753DE15AeF9d614", // crvOBTC
+        "0x49849C98ae39Fff122806C06791Fa73784FB3675", // CRV:RENWBTC
+        "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3", // CRV:RENWSBTC
+        "0x321162Cd933E2Be498Cd2267a90534A804051b11", // Fantom WBTC
+    ].map((x) => x.toLowerCase());
+    const ethCoins = [
+        "0x06325440D014e39736583c165C2963BA99fAf14E", // CRV:STETH
+        "0x74b23882a30290451A17c44f4F05243b6b58C76d", // Fantom WETH
+    ].map((x) => x.toLowerCase());
+    const linkCoins = ["0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8"].map((x) =>
+        x.toLowerCase()
+    );
+
+    if (ethCoins.indexOf(address.toLowerCase()) != -1) {
+        // ETH
+        platform = "ethereum";
         address = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
-    } else if (
-        address.toLowerCase() ===
-        "0x49849C98ae39Fff122806C06791Fa73784FB3675".toLowerCase()
-    ) {
-        // CRV:RENWBTC
+    } else if (btcCoins.indexOf(address.toLowerCase()) != -1) {
+        // BTC
+        platform = "ethereum";
         address = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";
-    } else if (
-        address.toLowerCase() ===
-        "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3".toLowerCase()
-    ) {
-        // CRV:RENWSBTC
-        address = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";
+    } else if (linkCoins.indexOf(address.toLowerCase()) != -1) {
+        // LINK
+        platform = "ethereum";
+        address = "0x514910771af9ca656af840dff83e8264ecf986ca";
+    } else if (usdCoins.indexOf(address.toLowerCase()) != -1) {
+        // USD
+        return 1;
     }
 
     const cachedPrice: CachedPrice = tokenPriceCache[address];
@@ -326,7 +327,10 @@ app.get("/v3/avalanche/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address, "avalanche");
+                    const poolInfo = getPoolInfoFromAddress(
+                        pool.address,
+                        "avalanche"
+                    );
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
@@ -395,7 +399,10 @@ app.get("/v3/fantom/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address, "fantom");
+                    const poolInfo = getPoolInfoFromAddress(
+                        pool.address,
+                        "fantom"
+                    );
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
@@ -443,7 +450,7 @@ app.get("/v3/fantom/pools", (req, res) => {
 });
 
 // v3 polygon
-app.get("/v3/poylgon/pools", (req, res) => {
+app.get("/v3/polygon/pools", (req, res) => {
     const query = gql`
         {
             dpools {
@@ -464,7 +471,10 @@ app.get("/v3/poylgon/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address, "polygon");
+                    const poolInfo = getPoolInfoFromAddress(
+                        pool.address,
+                        "polygon"
+                    );
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
