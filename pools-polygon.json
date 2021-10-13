@@ -1,0 +1,62 @@
+{
+    "aDAI": {
+        "name": "aDAI",
+        "address": "0xa78276C04D8d807FeB8271fE123C1f94c08A414d",
+        "stablecoin": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "stablecoinSymbol": "DAI",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/dai.svg",
+        "moneyMarket": "0x452E9566eb6a2994ca69Bb47106914bb079f2875"
+    },
+    "aUSDC": {
+        "name": "aUSDC",
+        "address": "0x3933bAAc41f04D0FFa0977b0e879Bc56482aD667",
+        "stablecoin": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "stablecoinSymbol": "USDC",
+        "stablecoinDecimals": 6,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/usdc.svg",
+        "moneyMarket": "0x3b4657b36cfBF782527b5b90749d079B1756A224"
+    },
+    "aUSDT": {
+        "name": "aUSDT",
+        "address": "0xf5eF24a27f35Cbe8A2b0a954ACF81d7064CE6B70",
+        "stablecoin": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "stablecoinSymbol": "USDT",
+        "stablecoinDecimals": 6,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/usdt.png",
+        "moneyMarket": "0xB87c90feF9bb01b5583D7e2d9Aec1a280D8870df"
+    },
+    "aWBTC": {
+        "name": "aWBTC",
+        "address": "0x0E99145166e2982bb67054A1E5d3a902Fc4d2b59",
+        "stablecoin": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "stablecoinSymbol": "WBTC",
+        "stablecoinDecimals": 8,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/wbtc.svg",
+        "moneyMarket": "0xfB54Da5DDaaA24dCbb3071F8a4D97E1Fdd62A091"
+    },
+    "aWETH": {
+        "name": "aWETH",
+        "address": "0x3B79Eb9675ED29554f57b719dC66A461a4C84970",
+        "stablecoin": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "stablecoinSymbol": "WETH",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/weth.svg",
+        "moneyMarket": "0x865609f665641a28148137bFC14a32aBbC7c6357"
+    },
+    "aWMATIC": {
+        "name": "aWMATIC",
+        "address": "0x4f28Fc2Be45682D1be1d0f155f4a52D4509Db629",
+        "stablecoin": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "stablecoinSymbol": "WMATIC",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/wmatic.svg",
+        "moneyMarket": "0xd29813550df02ca4a8a557ba387d5ad141788dc4"
+    }
+}

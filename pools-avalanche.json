@@ -1,0 +1,122 @@
+{
+    "aDAI": {
+        "name": "aDAI",
+        "address": "0xa78276C04D8d807FeB8271fE123C1f94c08A414d",
+        "stablecoin": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+        "stablecoinSymbol": "DAI",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/dai.svg",
+        "moneyMarket": "0x452E9566eb6a2994ca69Bb47106914bb079f2875"
+    },
+    "qiDAI": {
+        "name": "qiDAI",
+        "address": "0xd9f46096801799f59f34c95e0b4DF0f6A76bFcF3",
+        "stablecoin": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+        "stablecoinSymbol": "DAI",
+        "stablecoinDecimals": 18,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/dai.svg",
+        "moneyMarket": "0xeF5b2F40c116a18C75F43c2426D7A3F42a0876fa"
+    },
+    "qiLINK": {
+        "name": "qiLINK",
+        "address": "0x2252185532317932B1883B3429407296a2C69244",
+        "stablecoin": "0x5947BB275c521040051D82396192181b413227A3",
+        "stablecoinSymbol": "LINK",
+        "stablecoinDecimals": 18,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/link.svg",
+        "moneyMarket": "0x4618c9f9Be4F8913449E34B425fD941b7c3D36Ee"
+    },
+    "aUSDC": {
+        "name": "aUSDC",
+        "address": "0xF0ca068be757e61cdfa6314Bf59F5243767F1bfD",
+        "stablecoin": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+        "stablecoinSymbol": "USDC",
+        "stablecoinDecimals": 6,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/usdc.svg",
+        "moneyMarket": "0x3b4657b36cfBF782527b5b90749d079B1756A224"
+    },
+    "qiUSDC": {
+        "name": "qiUSDC",
+        "address": "0xC7CbB403D1722EE3E4ae61f452Dc36d71E8800DE",
+        "stablecoin": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+        "stablecoinSymbol": "USDC",
+        "stablecoinDecimals": 6,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/usdc.svg",
+        "moneyMarket": "0xD176ff3D44fDAe552bDC5b566fa1F0066E81fe0b"
+    },
+    "aUSDT": {
+        "name": "aUSDT",
+        "address": "0x58E65F624C5Ecf595824c96B3853eA8da2f9ADF1",
+        "stablecoin": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+        "stablecoinSymbol": "USDT",
+        "stablecoinDecimals": 6,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/usdt.png",
+        "moneyMarket": "0x611115d89e4958C0BeF5a97e5B448CC514ba135f"
+    },
+    "qiUSDT": {
+        "name": "qiUSDT",
+        "address": "0x747cDEC7D885cA961Baec11481cda651BF4D1004",
+        "stablecoin": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+        "stablecoinSymbol": "USDT",
+        "stablecoinDecimals": 6,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/usdt.png",
+        "moneyMarket": "0x2c595a12e0B62d990642f3117a78152ECbf35752"
+    },
+    "aWAVAX": {
+        "name": "aWAVAX",
+        "address": "0x4f28Fc2Be45682D1be1d0f155f4a52D4509Db629",
+        "stablecoin": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+        "stablecoinSymbol": "WAVAX",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/wavax.svg",
+        "moneyMarket": "0xd29813550df02cA4a8A557BA387D5ad141788Dc4"
+    },
+    "aWBTC": {
+        "name": "aWBTC",
+        "address": "0xBCD1571761C2f3D8e0ae93651753aa968E357425",
+        "stablecoin": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+        "stablecoinSymbol": "WBTC",
+        "stablecoinDecimals": 8,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/wbtc.svg",
+        "moneyMarket": "0xf4a22Bd96BA7E5441F051e6ebEd79D2Fc06ab7e9"
+    },
+    "qiWBTC": {
+        "name": "qiWBTC",
+        "address": "0x336c38657837AA2b5Fd21d41ea651B6D792291D9",
+        "stablecoin": "0x50b7545627a5162F82A992c33b87aDc75187B218",
+        "stablecoinSymbol": "WBTC",
+        "stablecoinDecimals": 8,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/wbtc.svg",
+        "moneyMarket": "0xca749f4fB21d08000D503977270Ce45d4Ab7BcF2"
+    },
+    "aWETH": {
+        "name": "aWETH",
+        "address": "0xd1FeA1b2DC4E0be1f5f16bACf1DfEb7FC3434B5F",
+        "stablecoin": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "stablecoinSymbol": "WETH",
+        "stablecoinDecimals": 18,
+        "protocol": "Aave",
+        "iconPath": "assets/img/token-icons/weth.svg",
+        "moneyMarket": "0x2744b79c985aE0C6b81F1DA8eed1A4C67Eb4B732"
+    },
+    "qiWETH": {
+        "name": "qiWETH",
+        "address": "0xeB706249F3B4640839e64211336B2063a3cdFBB9",
+        "stablecoin": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "stablecoinSymbol": "WETH",
+        "stablecoinDecimals": 18,
+        "protocol": "Benqi",
+        "iconPath": "assets/img/token-icons/weth.svg",
+        "moneyMarket": "0xc0B92569f2484D7d3cAD57d0A0Ad05e3C1a4cEA7"
+    }
+}
