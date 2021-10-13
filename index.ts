@@ -180,7 +180,7 @@ const v2Handler = (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address, 2);
+                    const poolInfo = getPoolInfoFromAddress(pool.address, "2");
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
@@ -326,7 +326,7 @@ app.get("/v3/avalanche/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address);
+                    const poolInfo = getPoolInfoFromAddress(pool.address, "avalanche");
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
@@ -395,7 +395,7 @@ app.get("/v3/fantom/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address);
+                    const poolInfo = getPoolInfoFromAddress(pool.address, "fantom");
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
@@ -464,7 +464,7 @@ app.get("/v3/poylgon/pools", (req, res) => {
             const mphPriceUSD = await getMPHPriceUSD();
             await Promise.all(
                 dpools.map(async (pool) => {
-                    const poolInfo = getPoolInfoFromAddress(pool.address);
+                    const poolInfo = getPoolInfoFromAddress(pool.address, "polygon");
 
                     // get MPH APY
                     const stablecoinPrice = await getTokenPriceUSD(
